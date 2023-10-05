@@ -1,0 +1,91 @@
+@charset "uft-8";
+
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+    --third-color: gray;
+    --bg-orange: orange;
+}
+
+/* common style */
+.mx-auto{
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.h600 {
+    height: 600px;
+}
+
+.flex-column {
+    flex: column;
+}
+
+.text-white {
+    color: var(--secondary-color);
+}
+
+.gap1 {
+    gap: 1rem;
+}
+
+.gap2 {
+    gap: 2rem;
+}
+
+.gap3 {
+    gap: 3rem;
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.caps {
+    text-transform: capitalize;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+/* header */
+.container {
+    max-width: 1000px;
+    background: var(--bg-orange);
+}
+
+.slogan_title {
+    font-size: 8rem;
+    margin: 5rem 0 0 0;
+}
+
+.slogan_text {
+    border-top: 1px solid var(--secondary-color);
+    padding: 0.5rem 0 0 0;
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 3px var(--primary-color);
+}

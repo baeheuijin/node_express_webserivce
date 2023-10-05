@@ -1,0 +1,20 @@
+{
+  "name": "node_expresss_website",
+  "version": "1.0.0",
+  "description": "node.js와 express.js 그리고 mysql 데이터베이스를 이용한\r 웹서비스 개발\r # 준비사항\r - Node.js LTS v18.x | node -v\r - Visual Studio Code\r - Chrome or Edge Web Browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
